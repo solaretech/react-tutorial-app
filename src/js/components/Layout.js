@@ -1,15 +1,17 @@
-import React from "react"
+import React from "react";
+import Header from "./Header";
+import Footer from "./Footer";
 
 export default class Layout extends React.Component {
   constructor(){
     super();
-    this.name = "Kakuny"
+    this.name = "Kakuny";
   };
   render() {
+    let components = [<Header />, <Footer />];
     return (
       <div>
-        <h1>Welcome!</h1>
-        <h1>I'm {this.name}!</h1>
+        {components}
       </div>
     );
   }
