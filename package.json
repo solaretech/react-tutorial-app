@@ -4,6 +4,7 @@
   "description": "tutorial of react.js",
   "main": "webpack.config.js",
   "scripts": {
+    "start": "webpack-dev-server --content-base src --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kazuki Kakuya",
